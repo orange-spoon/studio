@@ -12,7 +12,8 @@ body, html {
   display: flex;
 
   text-rendering: geometricPrecision;
-  font-size: 48px;
+  font-size: 46px;
+  line-height: 56px;
 }
 
 .book-page {
@@ -31,8 +32,8 @@ body, html {
 
 img {
   max-width: 100%;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  /* margin-top: 1em; */
+  /* margin-bottom: 1em; */
 }
 
 img:first-child {
@@ -56,4 +57,12 @@ a:hover {
 
 p {
   margin-bottom: 1em;
+}
+
+@media screen and (max-width: 900px) {
+  .book {
+    font-size: 24px;
+    line-height: 30px;
+    width: 90vw;
+  }
 }
