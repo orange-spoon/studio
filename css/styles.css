@@ -78,3 +78,13 @@ p {
     font-size: 12px;
   }
 }
+
+@media screen and (max-height: 850px) {
+  .book {
+    font-size: 24px;
+    line-height: 1.25;
+  }
+  .img-attribution {
+    font-size: 12px;
+  }
+}
