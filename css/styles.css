@@ -13,7 +13,7 @@ body, html {
 
   text-rendering: geometricPrecision;
   font-size: 46px;
-  line-height: 56px;
+  line-height: 1.22;
 }
 
 .book-page {
@@ -32,6 +32,19 @@ body, html {
 
 img {
   max-width: 100%;
+}
+
+.img-wrap {
+  position: relative;
+}
+
+.img-attribution {
+  font-size: 21px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform-origin: 100% 100%;
+  transform: rotate(90deg);
 }
 
 a {
